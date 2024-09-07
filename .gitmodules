@@ -1,3 +1,4 @@
 [submodule "external/popdef"]
 	path = external/popdef
 	url = https://github.com/teppey/popdef
+	branch = main
