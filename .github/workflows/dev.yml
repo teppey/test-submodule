@@ -15,4 +15,12 @@ jobs:
 
       - name: Tree
         run: |
-          tree -a
+          tree external
+
+      - name: Update submodule
+        run: |
+          git submodule update --remote
+
+      - name: Tree
+        run: |
+          tree external
