@@ -8,5 +8,6 @@ jobs:
     timeout-minutes: 5
     runs-on: ubuntu-latest
     steps:
-      run: |
-        date
+      - name: 1
+        run: |
+          date
