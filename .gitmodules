@@ -2,7 +2,3 @@
 	path = external/popdef
 	url = https://github.com/teppey/popdef
 	branch = main
-[submodule "external/sobacc"]
-	path = external/sobacc
-	url = https://github.com/teppey/sobacc
-	branch = master
